@@ -1,0 +1,15 @@
+preprocess:
+  lidar_type: 4                # 1 for Livox serials LiDAR, 2 for Velodyne LiDAR, 3 for ouster LiDAR,4 for robosense 32 LIDAR
+  scan_line: 32
+  time_scale: 1e3             # 兼容不同数据集的时间单位
+
+mapping:
+  extrinsic_T: [ -0.1947, 0.0, -0.1971 ]
+  extrinsic_R: [  0,  1,  0,
+                  1,  0,  0,
+                  0,  0, -1, ]
+
+point_filter_num: 1
+max_iteration: 3
+imu_has_gravity: false
+with_ui: false

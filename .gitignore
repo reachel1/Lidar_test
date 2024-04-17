@@ -1,0 +1,10 @@
+\lib
+\bin
+\data
+lib/
+bin/
+data/
+build/
+thirdparty/g2o/build/
+thirdparty/Pangolin/build/
+thirdparty/tbb/2019_U8/oneTBB-2019_U8/build/
